@@ -1,0 +1,56 @@
+.user-list {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+    overflow-x: auto; 
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr {
+    background-color: #f5f5f5;
+  }
+  
+  td.actions {
+    display: flex;
+    gap: 5px;
+  }
+  
+  td.actions button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  td.actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  td.actions button.delete {
+    background-color: #dc3545;
+  }
+  
+  td.actions button.delete:hover {
+    background-color: #bb212e;
+  }
+ 

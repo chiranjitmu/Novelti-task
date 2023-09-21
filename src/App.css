@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+
+.task{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
