@@ -1,6 +1,6 @@
 # React + Vite CRUD App
 
-![Live App](https://novelti-task.netlify.app/)
+[Live App](https://novelti-task.netlify.app/)
 
 ## Overview
 
